@@ -79,7 +79,7 @@ class MBConvBlock(tf.keras.layers.Layer):
         return y
 
 
-class MobileNetV3(tf.keras.Model):
+class MobileNetV3Small(tf.keras.Model):
     def __init__(self, input_shape=None, include_top=True, classes=1000):
         super().__init__()
         self.conv_bn_stem = tf.keras.Sequential(
