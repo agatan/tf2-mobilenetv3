@@ -7,7 +7,7 @@ verify_ssl = true
 black = "==19.10b0"
 
 [packages]
-tensorflow = "~=2.4.2"
+tensorflow = "~=2.6.4"
 tensorflow-datasets = "*"
 
 [requires]
